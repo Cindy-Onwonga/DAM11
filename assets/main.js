@@ -1,8 +1,8 @@
-let username = getElementById("name")
+let username = document.getElementById("username");
 
 //console.log("Hello" + username + "welcome to the bootcamp")
 
 function nameFunc() {
-  getElementById("displayname").innerHTML = "Hello" + username + "welcome to the bootcamp"
+  document.getElementById("displayname").innerHTML = 'Hello ' + username.value +' welcome to the bootcamp'
 }
 
